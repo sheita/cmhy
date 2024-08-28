@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CMHY",
   description: "clem memo heck yeak",
+  base: '/base/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
